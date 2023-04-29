@@ -1,0 +1,63 @@
+
+body
+{
+    background-color: lightblue;
+}
+
+td 
+{
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.sectionHeader
+{
+    margin-left: 25px;
+}
+
+.sectionTable
+{
+    margin-left: 50px;
+}
+
+.sectionList
+{
+    margin-left: 75px;
+}
+
+.logo
+{
+    max-height: 50px;
+}
+
+.degreeHeader
+{
+    margin-top: -20px;
+    margin-left: 50px;
+    max-height: 100px;
+}
+
+.degreeHeaderCont
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    max-height: 100px;
+}
+
+.degreeTitle
+{
+    margin-left: 65px;
+    margin-top: -10px;
+}
+
+.degreeWork
+{
+    margin-left: 55px;
+    margin-top: -15px;
+}
+
+#headshot
+{
+    max-width: 275px;
+    max-height: 275px;
+}

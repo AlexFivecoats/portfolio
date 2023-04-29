@@ -1,0 +1,25 @@
+
+body
+{
+    background-color: lightblue;
+}
+
+td 
+{
+    padding-right: 10px;
+}
+
+.sectionHeader
+{
+    margin-left: 25px;
+}
+
+.sectionTable
+{
+    margin-left: 50px;
+}
+
+.sectionList
+{
+    margin-left: 65px;
+}
