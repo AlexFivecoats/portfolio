@@ -1,0 +1,72 @@
+/* Tag */
+body
+{
+    background-color: lightblue;
+}
+
+p
+{
+    margin-left: 25px;
+}
+
+td 
+{
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+/* Class */
+
+.sectionHeader
+{
+    margin-left: 25px;
+}
+
+.sectionTable
+{
+    margin-left: 50px;
+}
+
+.sectionSubHeader
+{
+    margin-top: -20px;
+    margin-left: 50px;
+    max-height: 100px;
+}
+
+.sectionHeaderCont
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    max-height: 100px;
+}
+
+.sectionTitle
+{
+    margin-left: 65px;
+    margin-top: -10px;
+}
+
+.sectionWork
+{
+    margin-left: 55px;
+    margin-top: -15px;
+}
+
+.logo
+{
+    max-height: 50px;
+}
+
+/* ID */
+
+#headshot
+{
+    max-width: 275px;
+    max-height: 275px;
+}
+
+#introTable
+{
+    border-bottom: 1px;
+}

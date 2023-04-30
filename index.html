@@ -8,15 +8,15 @@
 </head>
 <body>
     <div id="introDiv">
-        <table id="introTable" cellspacing = "20px" style="border-bottom: 1px;">
+        <table id="introTable" cellspacing = "20px">
             <tr>
                 <td>
-                    <img id="headshot" src="resources/headshot.png">
+                    <img id="headshot" alt="Alex Fivecoats" src="resources/headshot.png">
                 </td>
                 <td>
                     <h1>Alex Fivecoats, Software Engineer</h1>
-                    <p style="margin-left: 25px;">Experienced building enterprise software and working with large scale database systems.</p> 
-                    <p style="margin-left: 25px;">Passionate about working on projects that solve problems and enhance productivity.</p>
+                    <p>Experienced building enterprise software and working with large scale database systems.</p> 
+                    <p>Passionate about working on projects that solve problems and enhance productivity.</p>
                 </td>
             </tr>
         </table>
@@ -26,23 +26,25 @@
 
     <div id="educationDiv">
         <h1  class="sectionHeader">Education</h1>
-        <table class="degreeHeader">
+        <table class="sectionSubHeader">
             <tr>
                 <td> 
                     <h3>Ball State University </h3>
                 </td>
                 <td>
-                    <img src="resources/bsu_benny.png" class="logo">
+                    <a href="https://www.bsu.edu/">
+                        <img class="logo" alt="Ball State University" src="resources/bsu_benny.png">
+                    </a>
                 </td>
             </tr>
         </table>
-        <table class="degreeTitle">
+        <table class="sectionTitle">
             <tr>
                 <td>M.S. Data Science</td>
                 <td>2022</td>
             </tr>
         </table>
-        <table class="degreeWork">
+        <table class="sectionWork">
             <tr>
                 <td>
                     <ul>
@@ -61,40 +63,53 @@
                 </td>
             </tr>
         </table>
-        <table class="degreeTitle">
+        <table class="sectionTitle">
             <tr>
                 <td>B.S. Computer Science</td>
                 <td>2018</td>
             </tr>
         </table>
-        <table class="degreeWork">
+        <table class="sectionWork">
             <tr>
                 <td>
                     <ul>
                         <li>Experienced the full SDLC</li>
+                        <li>Focused on modern techniques such as OOP and TDD
                         <li>Built and managed SQL database with REST api</li>
+                        <li>Developed inventory managment application with local robotics manufacturer</li>
                     </ul>
                 </td>
             </tr>
         </table>
-        <table class="degreeHeaderCont">
+        <table class="sectionSubHeader">
             <tr>
                 <td>
                     <h3> IvyTech Community College</h3>
                 </td>
                 <td>
-                    <img src="resources/ivytech_tree.png" class="logo">
+                    <a href="https://www.ivytech.edu">
+                        <img class="logo" src="resources/ivytech_tree.png" alt="IvyTech Community College">
+                    </a>
                 </td>
             </tr>
         </table>
-        <table class="degreeTitle">
+        <table class="sectionTitle">
             <tr>
                 <td>A.S. Culinary Arts</td>                    
                 <td>2015</td>
             </tr>
         </table>
-        <table class="degreeWork">
-
+        <table class="sectionWork">
+            <tr>
+                <td>
+                    <ul>
+                        <li>Earned recognition by the ACF</li>
+                        <li>Learned proper kitchen hygiene and knife techniques</li>
+                        <li>Studied classical French cuisine</li>
+                        <li>Managed Chesterfield's Cafe</li>
+                    </ul>
+                </td>
+            </tr>
         </table>
     </div>
 
@@ -102,32 +117,56 @@
 
     <div id="experienceDiv">
         <h1 class="sectionHeader">Experience</h1>
-        <table class="sectionTable">
+        <table class="sectionSubHeader">
             <tr>
-                <td>Orchard Software</td>                    
+                <td>
+                    <h3>Orchard Software</h3>
+                </td>
+            </tr>
+        </table>
+        <table class="sectionTitle">
+            <tr>                    
                 <td>Software Engineer II</td>
                 <td>2020 - Now</td>
             </tr>
         </table>
-        <ul type="square" class="sectionList">
-            <li>Performed full-stack software development with Java, Javascript, SQL.</li>
-            <li>Built new feature sets into the application.</li>
-            <li>Fixed issues with existing functionality.</li>
-            <li>Built and maintained MS SQL Server.</li>
-        </ul>
-        <table class="sectionTable">
+        <table class="sectionWork">
             <tr>
-                <td>Ontario Software</td>
+                <td>
+                    <ul>
+                        <li>Performed full-stack software development with Java, Javascript, SQL.</li>
+                        <li>Built new feature sets into the application.</li>
+                        <li>Fixed issues with existing functionality.</li>
+                        <li>Built and maintained MS SQL Server.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table class="sectionSubHeader">
+            <tr>
+                <td>
+                    <h3>Ontario Software</h3>
+                </td>
+            </tr>
+        </table>
+        <table class="sectionTitle">
+            <tr>
                 <td>Software Engineer</td>
                 <td>2018 - 2020</td>
             </tr>
         </table>
-        <ul type="square" class="sectionList">
-            <li>Performed data migrations for clients in the finance and healthcare industries.</li>
-            <li>Wrote custom code to enable ETL operations for each client.</li>
-            <li>Facilitated client-side data import/export by creating custom interfaces on a per client basis.</li>
-            <li>Wrote dynamic code to encourage reuse and accommodate errors in client data.</li>
-        </ul>
+        <table class="sectionWork">
+            <tr>
+                <td>
+                    <ul type="square">
+                        <li>Performed data migrations for clients in the finance and healthcare industries.</li>
+                        <li>Wrote custom code to enable ETL operations for each client.</li>
+                        <li>Facilitated client-side data import/export by creating custom interfaces on a per client basis.</li>
+                        <li>Wrote dynamic code to encourage reuse and accommodate errors in client data.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
