@@ -1,7 +1,12 @@
-
+/* Tag */
 body
 {
     background-color: lightblue;
+}
+
+p
+{
+    margin-left: 25px;
 }
 
 td 
@@ -9,6 +14,8 @@ td
     padding-right: 10px;
     white-space: nowrap;
 }
+
+/* Class */
 
 .sectionHeader
 {
@@ -20,9 +27,30 @@ td
     margin-left: 50px;
 }
 
-.sectionList
+.sectionSubHeader
 {
-    margin-left: 75px;
+    margin-top: -20px;
+    margin-left: 50px;
+    max-height: 100px;
+}
+
+.sectionHeaderCont
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    max-height: 100px;
+}
+
+.sectionTitle
+{
+    margin-left: 65px;
+    margin-top: -10px;
+}
+
+.sectionWork
+{
+    margin-left: 55px;
+    margin-top: -15px;
 }
 
 .logo
@@ -30,34 +58,15 @@ td
     max-height: 50px;
 }
 
-.degreeHeader
-{
-    margin-top: -20px;
-    margin-left: 50px;
-    max-height: 100px;
-}
-
-.degreeHeaderCont
-{
-    margin-top: 20px;
-    margin-left: 50px;
-    max-height: 100px;
-}
-
-.degreeTitle
-{
-    margin-left: 65px;
-    margin-top: -10px;
-}
-
-.degreeWork
-{
-    margin-left: 55px;
-    margin-top: -15px;
-}
+/* ID */
 
 #headshot
 {
     max-width: 275px;
     max-height: 275px;
+}
+
+#introTable
+{
+    border-bottom: 1px;
 }
